@@ -47,19 +47,9 @@ inspired by color-theme-gallois."
      (font-lock-type-face ((t (:foreground "#00eeff"))))
      (font-lock-warning-face ((t (:bold t :foreground "blue"))))
 
-     ;; LaTeX faces
-     (font-latex-math-face ((t (:foreground "#92E683"))))
-     (font-latex-string-face ((t (:foreground "#92E683"))))
-     (font-latex-italic-face ((t (:foreground "#92E683"))))
-     (font-latex-bold-face ((t (:foreground "#92E683"))))
-     (font-latex-verbatim-face ((t (:foreground "#92E683"))))
-
-     ;;(highlight ((t (:background "dark slate blue" :foreground "#93AAF2"))))
-     (highlight ((t (:background "#6655ff" :foreground "#93AAF2"))))
-     (isearch ((t (:background "dim gray" :foreground "aquamarine"))))
-     (ispell-face ((t (:bold t :background "#FFB774" :foreground "#92E683"))))
+     (highlight ((t (:background "#6655ff" :foreground "#dddddd"))))
+     (isearch ((t (:background "#6655ff" :foreground "#dddddd"))))
      (modeline ((t (:background "#6655ff" :foreground "#dddddd"))))
-;;     (region ((t (:background "dark slate gray" :foreground "#93AAF2"))))
      (region ((t (:background "#6655ff" :foreground "#dddddd"))))
      (show-paren-match-face ((t (:bold t :background "#6655ff" :foreground "#ffffff"))))
      (show-paren-mismatch-face ((t (:bold t :background "red" :foreground "#dddddd"))))
